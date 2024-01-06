@@ -232,5 +232,6 @@ int main(void)
     return 0;
  }
 說明 : 
+來源https://byvoid.com/zht/blog/c-string/
 用strcmp比較字串大小，如果左大於右，回傳值大於0，如果相等就是0
 
