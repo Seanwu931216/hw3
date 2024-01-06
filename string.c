@@ -202,3 +202,35 @@ int main ()
 
 說明 : 來源https://tw.gitbook.net/c_standard_library/c_function_memset.html
 memset可以將字元'$'複製7個字元到字串陣列str中
+
+
+函數名稱 : strcmp
+
+作用 : 比較字串
+
+範例 :
+#include <string.h>
+#include <stdio.h>
+1
+int main(void)
+ {
+    char *buf1 = "aaa", *buf2 = "bbb", *buf3 = "ccc";
+    int ptr;
+
+    ptr = strcmp(buf2, buf1);
+    if (ptr > 0)
+       printf("buffer 2 is greater than buffer 1\n");
+    else
+       printf("buffer 2 is less than buffer 1\n");
+
+    ptr = strcmp(buf2, buf3);
+    if (ptr > 0)
+       printf("buffer 2 is greater than buffer 3\n");
+    else
+       printf("buffer 2 is less than buffer 3\n");
+
+    return 0;
+ }
+說明 : 
+用strcmp比較字串大小，如果左大於右，回傳值大於0，如果相等就是0
+
