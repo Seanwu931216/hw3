@@ -204,8 +204,7 @@ int main ()
 memset可以將字元'$'複製7個字元到字串陣列str中
 
 
-	
-6.函數名稱 : strcmp
+函數名稱 : strcmp
 
 作用 : 比較字串
 
