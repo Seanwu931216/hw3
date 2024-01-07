@@ -14,7 +14,8 @@ int main ()
    
    return(0);
 }
-說明 : 使用Pow(intx,inty)，以參數x作為底，參數y作為次方，且因為回傳
+說明 : 來源https://tw.gitbook.net/c_standard_library/c_function_pow.html
+使用Pow(intx,inty)，以參數x作為底，參數y作為次方，且因為回傳
 double型別的值，所以使用%lf
 
 
@@ -59,7 +60,7 @@ int main ()
    
    return(0);
 }
-說明 : https://tw.gitbook.net/c_standard_library/c_function_exp.html
+說明 : 來源https://tw.gitbook.net/c_standard_library/c_function_exp.html
 以e為底數，找到x指數值
 
 
@@ -83,7 +84,7 @@ int main ()
    
    return(0);
 }
-說明 : https://tw.gitbook.net/c_standard_library/c_function_exp.html
+說明 : 來源https://tw.gitbook.net/c_standard_library/c_function_exp.html
 以10為底數，找到x的對數值
 
 
